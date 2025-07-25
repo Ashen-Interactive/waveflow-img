@@ -1,0 +1,36 @@
+input_image: "example.png"
+output_width: 20
+output_height: 20
+tile_size: 1
+
+# Number of different luminance values
+luminance_levels: 5
+
+# Which luminance-levels can touch?
+# 
+# adjacency:
+#  1:
+#    top:    [1, 2]
+#    left:   [1, 3]
+#    bottom: [2]
+#    right:  [1, 2]
+#  2:
+#    top:    [1, 2, 3]
+#    left:   [1, 2]
+#    bottom: [3]
+#    right:  [2]
+#  3:
+#    top:    [2, 3, 4]
+#    left:   [1, 3, 4]
+#    bottom: [4]
+#    right:  [3]
+#  4:
+#    top:    [3, 4, 5]
+#    left:   [2, 3, 5]
+#    bottom: [5]
+#    right:  [4]
+#  5:
+#    top:    [4, 5]
+#    left:   [3, 5]
+#    bottom: [5]
+#    right:  [5]
